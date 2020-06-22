@@ -87,7 +87,7 @@
                 r('iframe', {
                   attrs: {
                     /* 바꿔야 할곳 (트위치채널이름, 방송하는곳 도메인) */
-                    src: 'https://player.ok.ru/?channel=1895998430735&parent=oozy1201.github.io',
+                    src: 'https://player.ok.ru/?video=1895998430735&parent=oozy1201.github.io',
                     frameborder: '0',
                     allowfullscreen: 'true',
                     scrolling: 'no',
