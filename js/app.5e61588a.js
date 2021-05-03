@@ -87,7 +87,7 @@
                 r('iframe', {
                   attrs: {
                     /* 바꿔야 할곳 (트위치채널이름, 방송하는곳 도메인) */
-                    src: 'https://player.twitch.tv/?channel=hasoonmoju&parent=oozy1201.github.io',
+                    src: 'https://player.twitch.tv/?channel=gersogogi&parent=1.github.io',
                     frameborder: '0',
                     allowfullscreen: 'true',
                     scrolling: 'no',
@@ -110,7 +110,7 @@
           createUchat() {
             let e = document.createElement('u-chat');
             /* 바꿔야 할 곳 (유저채팅방이름) */
-            e.setAttribute('room', 'oozy1201'), e.style.width = '100%', e.style.height = '100%', document.getElementById('chat').appendChild(e);
+            e.setAttribute('room', '1'), e.style.width = '100%', e.style.height = '100%', document.getElementById('chat').appendChild(e);
           },
           toggleSplit(e) {
             n.destroy(), n = 'low' === e ?
