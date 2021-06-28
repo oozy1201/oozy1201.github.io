@@ -87,7 +87,7 @@
                 r('iframe', {
                   attrs: {
                     /* 바꿔야 할곳 (트위치채널이름, 방송하는곳 도메인) */
-                    src: 'https://player.twitch.tv/?channel=drive2993&parent=oozy1201.github.io',
+                    src: 'https://player.twitch.tv/?channel=loonaonwave&parent=oozy1201.github.io',
                     frameborder: '0',
                     allowfullscreen: 'true',
                     scrolling: 'no',
